@@ -5386,3 +5386,20 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.9:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [25/Jul/2023 23:44:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [25/Jul/2023 23:44:51] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [25/Jul/2023 23:44:51] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [25/Jul/2023 23:44:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'redgearmouse', 'Name': 'HARSH VAHONIYA', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'a little bit heavy , but its all right ....🤘🤘🤘'}, {'Product': 'redgearmouse', 'Name': 'Vineet Singh', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'You can buy this mouse blind folded. Its the best gaming mouse you can get under 1000 rupees.'}, {'Product': 'redgearmouse', 'Name': 'Sarthak Ray', 'Rating': '1', 'CommentHead': 'Unsatisfactory', 'Comment': 'The mouse is too heavy and not distributed properly'}, {'Product': 'redgearmouse', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': "Its good it can jitter click but can't drag click"}, {'Product': 'redgearmouse', 'Name': 'NIx wOW', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': "Mouse is good..but it's too large !! If you are 5'7 or less you'll feel that this mouse Is too large for you to grip.."}, {'Product': 'redgearmouse', 'Name': 'Ashim Basumatary', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'nice'}, {'Product': 'redgearmouse', 'Name': 'Hussain Muhammad  Imran', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': 'Good but little bit heavy with the time you will get habituated'}, {'Product': 'redgearmouse', 'Name': 'Kavin Kvn', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Worth for money..i love it so much.'}, {'Product': 'redgearmouse', 'Name': 'Akash Ali', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'Nice'}, {'Product': 'redgearmouse', 'Name': 'Flipkart Customer', 'Rating': '3', 'CommentHead': 'Just okay', 'Comment': 'I think its the best gaming mouse under 1k other than RG x12 which comes in the same price...the a20 is a bit heavier than x12 but it perfectly fits in big hand or medium hands like me👐🏻i am well satisfied'}, {'Product': 'redgearmouse', 'Name': 'Flipkart Customer', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'I think its the best gaming mouse under 1k other than RG x12 which comes in the same price...the a20 is a bit heavier than x12 but it perfectly fits in big hand or medium hands like me👐🏻i am well satisfied'}]
+INFO:werkzeug:172.18.0.2 - - [25/Jul/2023 23:45:05] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [25/Jul/2023 23:45:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [25/Jul/2023 23:45:05] "[33mGET /style.css HTTP/1.1[0m" 404 -
